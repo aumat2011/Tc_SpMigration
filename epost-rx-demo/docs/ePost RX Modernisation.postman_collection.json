@@ -1,0 +1,4156 @@
+{
+  "info": {
+    "_postman_id": "69fb7441-fc49-40a7-8a61-ff3b298654bd",
+    "name": "ePost RX Modernisation",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "1574174"
+  },
+  "item": [
+    {
+      "name": "phase1",
+      "item": [
+        {
+          "name": "Ansvalidatehippaadress",
+          "item": [
+            {
+              "name": "checkAns Validate Hippa Address (No Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030101"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (Currier Not Usps)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (Address Not Verified Not Overridden)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030301"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (Address Not Verified Service Down)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030401"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (Address Line Overed)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030501"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (Manual Verification Required)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030601"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (Address Status Inactive)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030701"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (No Family Record)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030801"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (Patient Not Valid)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8030901"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "checkAns Validate Hippa Address (No Minor Address)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "8031001"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsValidateHippaAddress",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsValidateHippaAddress"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Ansrxnarccodecheck",
+          "item": [
+            {
+              "name": "Check Narc Code (No Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020101"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (Script Id Not Found)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Gpi Class Limit Number Refills)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Gpi Class Limit Days Original)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020301"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Gpi Class Limit Days Supply)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020401"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Gpi Class Prohibits Electronic)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020501"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State LA Doctor Rule)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6021001"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Law Limit Number Refills)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020601"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Law Limit Days Original)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020701"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Law Limit Days Supply)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020801"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Narc Code (State Law Prohibits Electronic) Copy",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "6020901"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxNarcCode",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxNarcCode"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Ansrxsanitycheck",
+          "item": [
+            {
+              "name": "SanityCheck (No Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5029101"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck (Script Id Not Found)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.1 (SIG/GPI Not Match)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020101"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.2 (Controlled Fills Exceeded)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.3 (Controlled Fills More Than 5)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020301"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.4 (Rx Not Active)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020401"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.5 (Prescriber Epx Eligible)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020501"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.7 (Rx Not Paid)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020601"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.10 (Past Written Date)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020701"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.11 (Future Written Date)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020801"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.12 (Requires Ssn On File)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5020901"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.15 (Fl Epileptic Substition)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021002"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.16 (Controlled Refill Attempt)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021101"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.20 (Gpi Not Equivilent)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.27 (Alert W/O Special Tee Codes)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021301"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.27 (Alert W Special Tee Codes)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021302"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.27 (Alert  DAW 1/2 Drug)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021303"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.27 (Alert GPI with DAW 8 Drug)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021304"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.28 (Unresolved Dur)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021401"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "SanityCheck1.28 (Hi Compliance)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "5021501"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkAnsRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkAnsRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "OK rxsanitycheck",
+          "item": [
+            {
+              "name": "Check Rx Sanity (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rx Sanity 1",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "4601"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rx Sanity 2",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "4602"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rx Sanity 3",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "4603"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rx Sanity (Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "4604"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkRxSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkRxSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Remaining Refills",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "410001"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRemainingRefills",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRemainingRefills"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Remaining Refills (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRemainingRefills",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRemainingRefills"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total Qty",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "4201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalQty",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalQty"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total Qty (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalQty",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalQty"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total Qty Filled",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "430001"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalQtyFilled",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalQtyFilled"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total Qty Filled (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalQtyFilled",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalQtyFilled"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total ORTF Qty Filled",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "440001"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalORTFQtyFilled",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalORTFQtyFilled"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total ORTF Qty Filled (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalORTFQtyFilled",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalORTFQtyFilled"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total Fills",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "4501"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalFills",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalFills"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Rx Total Fills (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "99999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getRxTotalFills",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getRxTotalFills"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Ansordersanitycheck",
+          "item": [
+            {
+              "name": "Check Order Sanity (No Bil Addr)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3001"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Multiple Patients)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3002"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Expired Rxs)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3003"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Insufficient Rxs)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3004"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (No Paid Ecs)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3005"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Order Not Open)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3006"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Wrong Patient)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3007"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Hippa Bad Address)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3007"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Address Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3008"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "value": "0",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Address Error2)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "3009"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "type": "text",
+                    "value": "0"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Order Sanity (Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "999"
+                  },
+                  {
+                    "key": "queueToBeUsed",
+                    "type": "text",
+                    "value": "0"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkOrderSanity",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkOrderSanity"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Ansordersanitycheck3",
+          "item": [
+            {
+              "name": "Check Exceed Max PV Days 1",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "value": "2003",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Exceed Max PV Days 2",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "2002"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Exceed Max PV Days 3",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "value": "2003",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Exceed Max PV Days 4",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "value": "2004",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Exceed Max PV Days (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "orderNum",
+                    "type": "text",
+                    "value": "999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "checkExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Common Function",
+          "item": [
+            {
+              "name": "Get Precheck Required",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "101,102,103,104"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getPrecheckRequired",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getPrecheckRequired"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Precheck Required (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "999,9999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getPrecheckRequired",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getPrecheckRequired"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Precheck Required (Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": ""
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getPrecheckRequired",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getPrecheckRequired"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get First Time Fill",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "101,102,103,104"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getFirstTimeFill",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getFirstTimeFill"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get First Time Fill (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "999,9999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getFirstTimeFill",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getFirstTimeFill"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get First Time Fill (Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": ""
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getFirstTimeFill",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getFirstTimeFill"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Exceed Max PV Days",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "101,102,103,104"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Exceed Max PV Days (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "999,9999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Exceed Max PV Days (Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": ""
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getExceedMaxPVDays",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getExceedMaxPVDays"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Primary Ecs Paid",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "101,102,103,104"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getPrimaryEcsPaid",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getPrimaryEcsPaid"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Primary Ecs Paid (None)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": "999,9999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getPrimaryEcsPaid",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getPrimaryEcsPaid"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Primary Ecs Paid (Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "escriptIds",
+                    "type": "text",
+                    "value": ""
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getPrimaryEcsPaid",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getPrimaryEcsPaid"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "RsRxLinkingSubstitutionGet",
+          "item": [
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (script id not found)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "9999999"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (NEWRX)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010101"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (REFILLRX)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (quantity lowered)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010301"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (already been selected)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010401"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (is not eligible)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010501"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (already been selected on current order)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010601"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (patient plan information not found)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010701"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetSubEScriptMsgAttributeSeq (patient plan is inactive)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "scriptId",
+                    "type": "text",
+                    "value": "7010801"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase1/methods/getSubEScriptMsgAttributeSeq",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase1",
+                    "methods",
+                    "getSubEScriptMsgAttributeSeq"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "GetRsRxSubstitutionLog",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/methods/getRsRxSubstitutionLog",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "methods",
+                    "getRsRxSubstitutionLog"
+                  ],
+                  "query": [
+                    {
+                      "key": "rxNumber",
+                      "value": "rx70801",
+                      "disabled": true
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Check Duplicate GPI",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "patientNum",
+                "type": "text",
+                "value": "1"
+              },
+              {
+                "key": "orderInvoiceNum",
+                "type": "text",
+                "value": "OIN2"
+              }
+            ],
+            "url": {
+              "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkDuplicateGPI",
+              "protocol": "http",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "rxmodernisation",
+                "phase1",
+                "methods",
+                "checkDuplicateGPI"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Check Duplicate GPI (Same Order)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "patientNum",
+                "value": "1",
+                "type": "text"
+              },
+              {
+                "key": "orderInvoiceNum",
+                "value": "OIN3",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkDuplicateGPI",
+              "protocol": "http",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "rxmodernisation",
+                "phase1",
+                "methods",
+                "checkDuplicateGPI"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Check Duplicate GPI (Open Order)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "patientNum",
+                "type": "text",
+                "value": "2"
+              },
+              {
+                "key": "orderInvoiceNum",
+                "type": "text",
+                "value": "OIN8"
+              }
+            ],
+            "url": {
+              "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkDuplicateGPI",
+              "protocol": "http",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "rxmodernisation",
+                "phase1",
+                "methods",
+                "checkDuplicateGPI"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Check Duplicate GPI (Workflow Queue)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "patientNum",
+                "type": "text",
+                "value": "3"
+              },
+              {
+                "key": "orderInvoiceNum",
+                "type": "text",
+                "value": "OIN13"
+              }
+            ],
+            "url": {
+              "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkDuplicateGPI",
+              "protocol": "http",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "rxmodernisation",
+                "phase1",
+                "methods",
+                "checkDuplicateGPI"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Check Duplicate GPI (Incomplete Pending)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "patientNum",
+                "type": "text",
+                "value": "4"
+              },
+              {
+                "key": "orderInvoiceNum",
+                "type": "text",
+                "value": "OIN18"
+              }
+            ],
+            "url": {
+              "raw": "http://{{host}}/rxmodernisation/phase1/methods/checkDuplicateGPI",
+              "protocol": "http",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "rxmodernisation",
+                "phase1",
+                "methods",
+                "checkDuplicateGPI"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "phase2",
+      "item": [
+        {
+          "name": "AnsDefaultRxPlanParams",
+          "item": [
+            {
+              "name": "Get Ans Default Rx Plan Params (no parameter)",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Ans Default Rx Plan Params (prodId not null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "prodId",
+                    "type": "text",
+                    "value": "25010101"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Ans Default Rx Plan Params (prodId not null, prodDea null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "prodId",
+                    "type": "text",
+                    "value": "25010201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Ans Default Rx Plan Params (ppNum not null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "ppNum",
+                    "type": "text",
+                    "value": "25020301"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Ans Default Rx Plan Params (prodId  and ppNum not null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "prodId",
+                    "type": "text",
+                    "value": "25010101"
+                  },
+                  {
+                    "key": "ppNum",
+                    "value": "25020301",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Ans Default Rx Plan Params (prodId and scriptId not null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "prodId",
+                    "type": "text",
+                    "value": "25010401"
+                  },
+                  {
+                    "key": "scriptId",
+                    "value": "25020401",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Ans Default Rx Plan Params (prodId and scriptId not null 2)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "prodId",
+                    "type": "text",
+                    "value": "25010502"
+                  },
+                  {
+                    "key": "scriptId",
+                    "value": "25020501",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Get Ans Default Rx Plan Params (all not null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "prodId",
+                    "type": "text",
+                    "value": "25010401"
+                  },
+                  {
+                    "key": "ppNum",
+                    "value": "25020301",
+                    "type": "text"
+                  },
+                  {
+                    "key": "scriptId",
+                    "value": "25020401",
+                    "type": "text"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/getAnsDefaultRxPlanParams",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "getAnsDefaultRxPlanParams"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "RsRxLinkWorkflowMinUtilizationCheck",
+          "item": [
+            {
+              "name": "Check Rs RxLink Workflow Min Utilization (Not Exist)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "not exist"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkRsRxLinkWorkflowMinUtilization",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkRsRxLinkWorkflowMinUtilization"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rs RxLink Workflow Min Utilization (Rx Number Empty)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": ""
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkRsRxLinkWorkflowMinUtilization",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkRsRxLinkWorkflowMinUtilization"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rs RxLink Workflow Min Utilization (State Gpi Min Util Not Met)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "rx2201"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkRsRxLinkWorkflowMinUtilization",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkRsRxLinkWorkflowMinUtilization"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rs RxLink Workflow Min Utilization (State Narc Min Util Not Met",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "rx2222"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkRsRxLinkWorkflowMinUtilization",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkRsRxLinkWorkflowMinUtilization"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rs RxLink Workflow Min Utilization (Item In Workflow)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "rx2231"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkRsRxLinkWorkflowMinUtilization",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkRsRxLinkWorkflowMinUtilization"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check Rs RxLink Workflow Min Utilization (No Error)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "rxNumber",
+                    "type": "text",
+                    "value": "rx2242"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkRsRxLinkWorkflowMinUtilization",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkRsRxLinkWorkflowMinUtilization"
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "RsRxLinkingInsert",
+          "item": [
+            {
+              "name": "not insert(userNum is null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010101&mode=I&deactivationComment=comment&flag=F",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010101"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "I"
+                    },
+                    {
+                      "key": "deactivationComment",
+                      "value": "comment"
+                    },
+                    {
+                      "key": "flag",
+                      "value": "F"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "not insert(mode is null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010101&userNum=1010&deactivationComment=comment&flag=F",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010101"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "deactivationComment",
+                      "value": "comment"
+                    },
+                    {
+                      "key": "flag",
+                      "value": "F"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "not insert(esciptId is null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?userNum=1010&mode=I&deactivationComment=comment&flag=F",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "I"
+                    },
+                    {
+                      "key": "deactivationComment",
+                      "value": "comment"
+                    },
+                    {
+                      "key": "flag",
+                      "value": "F"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "not insert(links not deactivating)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010101&userNum=1010&mode=I",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010101"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "I"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "not insert(child rx multi-link active)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010201&userNum=1010&mode=I",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010201"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "I"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "not insert(parent rx multi-link active)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010301&userNum=1010&mode=I",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010301"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "I"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "insert rx_link_logging(delete multi link, insert logging, insert multi link, insert logging)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010401&userNum=1010&mode=I",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010401"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "I"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "not insert(rx_number_parent is null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010601&userNum=1010&mode=I",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010601"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "I"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "deactive parent rx(update multi link, insert logging)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010701&userNum=1010&mode=D&flag=P",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010701"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "D"
+                    },
+                    {
+                      "key": "flag",
+                      "value": "P"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "deactive child rx(update multi link, insert logging)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/insertRsRxLinking?scriptId=2010802&userNum=1010&mode=D",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "insertRsRxLinking"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2010802"
+                    },
+                    {
+                      "key": "userNum",
+                      "value": "1010"
+                    },
+                    {
+                      "key": "mode",
+                      "value": "D"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "AnsRxProductService",
+          "item": [
+            {
+              "name": "Check AnsRxProduct(esciptId is null)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct(esciptId not found)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090100",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090100"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct ITEM CANNOT BE SHIPPED TO P.O. BOX(@coldpack='1')",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090101",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090101"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct ITEM CANNOT BE SHIPPED TO P.O. BOX( @prodea=2)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090201",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090201"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct ITEM CANNOT BE SHIPPED TO P.O. BOX(@proddeaState=2)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090301",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090301"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct ITEM CANNOT BE SHIPPED TO P.O. BOX(@activePobox='Y')",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090401",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090401"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct ITEM CANNOT BE SHIPPED TO P.O. BOX(@uspshippingmethoddesc >0)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090501",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090501"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct No Error",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090601",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090601"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct(@SHIP_STATE = 'NY'  and @NY_CONTROL_REFILL = 0)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090701",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090701"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct(@SHIP_STATE = 'NY'  and @NY_CONTROL_REFILL != 0)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090801",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090801"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct(@SHIP_STATE = 'TX'  and @TX_CONTROL_REFILL_CHK = 0)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2090901",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2090901"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            },
+            {
+              "name": "Check AnsRxProduct(@SHIP_STATE = 'TX'  and @TX_CONTROL_REFILL_CHK != 0)",
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "patientNum",
+                    "type": "text",
+                    "value": "1"
+                  },
+                  {
+                    "key": "orderInvoiceNum",
+                    "type": "text",
+                    "value": "OIN2"
+                  }
+                ],
+                "url": {
+                  "raw": "http://{{host}}/rxmodernisation/phase2/methods/checkAnsRxProduct?scriptId=2091001",
+                  "protocol": "http",
+                  "host": [
+                    "{{host}}"
+                  ],
+                  "path": [
+                    "rxmodernisation",
+                    "phase2",
+                    "methods",
+                    "checkAnsRxProduct"
+                  ],
+                  "query": [
+                    {
+                      "key": "scriptId",
+                      "value": "2091001"
+                    }
+                  ]
+                }
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

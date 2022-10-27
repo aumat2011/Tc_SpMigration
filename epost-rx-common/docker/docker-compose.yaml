@@ -1,0 +1,15 @@
+version: '2.2'
+
+services:
+  db:
+    build:
+      context: .
+    image: sp_demo_db_image
+    container_name: sp_demo_db
+    environment:
+      SA_PASSWORD: SecretP@ssword!!
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    expose:
+      - '1433'
