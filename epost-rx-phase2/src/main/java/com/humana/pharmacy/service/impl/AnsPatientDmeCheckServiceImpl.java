@@ -37,6 +37,51 @@ import static java.util.Optional.ofNullable;
 public class AnsPatientDmeCheckServiceImpl extends BaseServiceImpl implements AnsPatientDmeCheckService {
 
     /**
+     * The PP_PLAN_ID Kodda kullanılabilir
+     */
+    private static final Integer PP_PLAN_ID = 10073;
+
+    /**
+     * The JURISDICTION_CBZ Kodda kullanılabilir
+     */
+    private static final String JURISDICTION_CBZ = "CBZ";
+
+    /**
+     * The NDC_NUMBER Kodda kullanılabilir
+     */
+    private static final String NDC_NUMBER = "08484070120";
+
+    /**
+     * The EDITXNCODE_NEWRX Kodda kullanılabilir
+     */
+    private static final String EDITXNCODE_NEWRX = "NEWRX";
+
+    /**
+     * The EDITXNCODE_REFILLRX Kodda kullanılabilir  F_IsPatientDMEDocsValid
+     */
+    private static final String EDITXNCODE_REFILLRX = "REFILLRX";
+
+    /**
+     * The F_ISPATIENTDMEDOCVALID_PARAM1 Kodda kullanılabilir
+     */
+    private static final String F_ISPATIENTDMEDOCVALID_PARAM1 = "DTL";
+
+    /**
+     * The F_ISPATIENTDMEDOCVALID_PARAM2 Kodda kullanılabilir
+     */
+    private static final String F_ISPATIENTDMEDOCVALID_PARAM2 = "PPN";
+
+    /**
+     * The F_ISPATIENTDMEDOCVALID_PARAM3 Kodda kullanılabilir
+     */
+    private static final String F_ISPATIENTDMEDOCVALID_PARAM3 = "SFM";
+
+    /**
+     * The F_ISPATIENTDMEDOCVALID_PARAM4 Kodda kullanılabilir
+     */
+    private static final String F_ISPATIENTDMEDOCVALID_PARAM4 = "AOB";
+
+    /**
      * Constructor of AnsPatientDmeCheckServiceImpl.
      *
      * @param epostrxDataSource  DataSource for epostrx database. Required
