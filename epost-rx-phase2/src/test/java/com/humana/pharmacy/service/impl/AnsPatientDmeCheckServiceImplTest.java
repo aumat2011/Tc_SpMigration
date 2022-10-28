@@ -4,6 +4,7 @@ import com.humana.pharmacy.TestsHelper;
 import com.humana.pharmacy.dto.AnsDefaultRxPlanParamsDTO;
 import com.humana.pharmacy.dto.AnsDefaultRxPlanParamsResult;
 import com.humana.pharmacy.dto.AnsPatientDmeCheckDTO;
+import com.humana.pharmacy.dto.AnsPatientDmeCheckResult;
 import com.humana.pharmacy.service.AnsPatientDmeCheckService;
 import com.querydsl.core.JoinFlag;
 import com.querydsl.core.types.EntityPath;
@@ -63,6 +64,12 @@ public class AnsPatientDmeCheckServiceImplTest {
     @Mock
     private Long patientNum = 1L;
 
+    @Mock
+    private  String dmeCollection="Y";
+
+    @Mock
+    private  String ppPlanId="10073";
+
     /**
      * Service instance
      */
@@ -76,9 +83,11 @@ public class AnsPatientDmeCheckServiceImplTest {
     /**
      * The AnsDefaultRxPlanParamsDTO list.
      */
-    private List<AnsPatientDmeCheckDTO> ansPatientDmeCheckDTO; // Fucntion which collects AnsPatientDmeCheckDTO
+    private List<AnsPatientDmeCheckDTO> ansPatientDmeCheckDTO;
 
     private Boolean controlEligibleMock; //Function
+
+    public AnsPatientDmeCheckResult ansPatientDmeCheckResult;
 
     @Mock
     private SQLQueryFactory epostrxQF;
@@ -93,9 +102,11 @@ public class AnsPatientDmeCheckServiceImplTest {
         TestsHelper.setFieldValue(ansPatientDmeCheckService, "epostrxQF", epostrxQF);
         TestsHelper.setFieldValue(ansPatientDmeCheckService, "workflowQF", workflowQF);
 
+        ansPatientDmeCheckResult= checkPatientDme(scriptId);
         ansPatientDmeCheckDTO = getAnsPatientDmeCheckDTOs(scriptId);
-        controlEligibleMock = controlEligible(patientNum);
+        controlEligibleMock = controlEligible(patientNum,dmeCollection,ppPlanId);
     }
+
 
     private void setUpMock() {
         when(epostrxQF.select(any(Expression.class))).thenReturn(query);
@@ -129,7 +140,33 @@ public class AnsPatientDmeCheckServiceImplTest {
      * Tests if the given parameters' values are null
      */
     @Test
-    public void ParamsNullCheck()
+    public void allParamsNullCheck()
+    {
+        patientNum=null;
+        dmeCollection=null;
+        ppPlanId=null;
+        scriptId=null;
+        setUpMock();
+        when(query.fetchFirst()).thenReturn(ansPatientDmeCheckResult,ansPatientDmeCheckResult);
+        AnsPatientDmeCheckResult res = ansPatientDmeCheckService.checkPatientDme(scriptId);
+
+    }
+
+    /**
+     * Tests if the given parameters' values don't match with the entity values
+     */
+    @Test
+    public void paramsNotFoundInEntityCheck()
+    {
+
+    }
+
+
+    /**
+     * Tests if the given parameters' values don't match with the entity values
+     */
+    @Test
+    public void checkPatientDmeScriptIdIsNull()
     {
 
     }
@@ -138,9 +175,53 @@ public class AnsPatientDmeCheckServiceImplTest {
      * Tests if the given parameters' values don't match with the entity values
      */
     @Test
-    public void NotFoundParamsInEntityCheck()
+    public void getAnsPatientDmeCheckDTOsScriptIdIsNull()
     {
 
+    }
+
+    /**
+     * Tests if the given parameters' values don't match with the entity values
+     */
+    @Test
+    public void controlEligiblepatientNumIsNull()
+    {
+
+    }
+
+    /**
+     * Tests if the given parameters' values don't match with the entity values
+     */
+    @Test
+    public void controlEligibleDmeCollectionIsNull()
+    {
+
+    }
+
+    /**
+     * Tests if the given parameters' values don't match with the entity values
+     */
+    @Test
+    public void controlEligiblePpPlanIdIsNull()
+    {
+
+    }
+
+
+
+    private AnsPatientDmeCheckResult checkPatientDme(BigInteger scriptId)
+    {
+        return ;
+    }
+
+    private List<AnsPatientDmeCheckDTO> getAnsPatientDmeCheckDTOs(BigInteger scriptId)
+    {
+        return ;
+    }
+
+    private Boolean controlEligible(Long patientNum, String dmeCollection, String ppPlanId)
+    {
+        return ;
     }
 
 
